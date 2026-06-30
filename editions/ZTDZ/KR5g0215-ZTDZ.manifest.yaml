@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0215/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5g0215/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上靈寶芝草品
+  date: '2015-08-29 03:00:15.935034'
+  source:
+    repository: kanripo
+    path: KR5g0215
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0215_000-ZTDZ.yaml, hash: 'sha256:a44c8067d5c1f5a471ef902338fc02da10f99e07cdbc6e568a97e71a871e1cc2'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0215_000-ZTDZ.markers.yaml, hash: 'sha256:fc25925d13c525dfe9d7c9030dbf5e92c4d1b812ab2c756d984b93cc6fbaf6d6'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0215_SJB_000-340316a
+    span:
+    - body
+    - 0
+    - 4171
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:cbe5f91cefc1cb25b3cb295c910b315007686f749609b673050d86462c99e4f3
